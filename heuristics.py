@@ -74,7 +74,7 @@ def heuristic_attacked_cells(queens, n):
     :param n: Problem dimension.
     :return: Number of attacked cells, including the cells occupied by the queens.
     """
-    return -heuristic_free_cells(queens, n)
+    return n * n - heuristic_free_cells(queens, n)
 
 
 def compute_chessboard(queens, n):
