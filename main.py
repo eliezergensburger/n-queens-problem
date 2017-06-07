@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from problem import Proxy, QueensProblem
 from heuristics import heuristic_none, heuristic_random, heuristic_attacked_cells, heuristic_free_cells
 
