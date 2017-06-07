@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import random
 from problem import Proxy, QueensProblem
 from heuristics import heuristic_none, heuristic_random, heuristic_attacked_cells, heuristic_free_cells
 
@@ -12,6 +13,9 @@ def main():
     steps that the algorithm performed to get a solution, the second number is the number of
     invocations of the heuristic function during the search.
     """
+
+    # initialize a random seed
+    random.seed(1)
 
     # separator to format the output
     separator = ', '

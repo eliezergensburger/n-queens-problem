@@ -22,7 +22,6 @@ def heuristic_random(queens, n):
     :param queens: Ignored.
     :param n: Ignored.
     """
-    random.seed(0)
     return random.uniform(0, 1)
 
 
